@@ -1,36 +1,38 @@
 body{
-    background-image: url(https://cdn.pixabay.com/photo/2016/05/02/10/17/love-1366940_960_720.jpg);
+    background-image: url(http://st.gde-fon.com/wallpapers_original/239296_yekran_-fon_2560x1600_www.Gde-Fon.com.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15pt;
     text-align: center;
-    color: #3d495c;
 }
-header{
-    background: rgba(255, 255, 255, 0.486);
+
+.introducao{
+    background: rgba(255, 255, 255, 0.295);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
 
 }
-.habilidades{
-    font-size: 13pt;
-}
-#descricao{
-    font-style: italic;
-}
+
 #eu{
     border-radius: 50%;
     width: 200px;
     height: 200px;
     object-fit: cover;
+    float: left;
 }
-.listas{
-    display: inline-block;
+
+.habilidades{
+    font-size: 13pt;
 }
+
+#descricao{
+    font-style: italic;
+}
+
 .buttons{
     text-decoration: none;
     font-size: 12px;
@@ -40,6 +42,30 @@ header{
     line-height: 50px;
     color: black;
 }
+
 h3{
     color: black;
+}
+
+.habilities-box{
+    width: 30%;
+    margin: auto;
+    margin-left: 450px;
+    margin-bottom: 20px;
+    font-size: 12pt;
+}
+
+.habilities-box h3{
+    font-size: 12pt;
+    margin-left: 20%;
+    background-color: rgba(255, 255, 255, 0.185);
+    border-radius: 10px;
+}
+
+.left-habs{
+    float: left;
+}
+
+.right-habs{
+    float: right;
 }
