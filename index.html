@@ -1,44 +1,96 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<head lang="pt_br">
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Gabriel Bernardo</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="introducao">
-        <h1 style="color: black; font-size: 30px;">Gabriel Bernardo Cotrim Silva</h1>
-        <img src="eu.jpeg" width="100px" id="eu">
-        <p style="font-style: italic; color:#3d495c;">
-            <strong>Olá, Mundo!</strong> Me chamo Gabriel, tenho 20 anos.<br> Nasci em <strong>São Paulo</strong>, mas atualmente moro em uma
-            cidade no interior de <strong>Pernambuco</strong>.<br>
-            Sou estudante de <strong>Desenvolvimento Web</strong> pela <a href="https://www.betrybe.com/" target="_blank" style="text-decoration: none; color: green;">Trybe</a>
-        </p>
-    </div>
-    <a class="buttons" href="#phab">Principais Habilidades</a> <br>
-    <a class="buttons" href="#ohab">Outras Habilidades</a>
+    <header>
+        <section class="header-container">
+            <div class="nav-container">
+                <nav>
+                    <ul>
+                        <a href="#home-container">
+                            <li>Home</li>
+                        </a>
+                        <a href="#about-container">
+                            <li>Sobre mim</li>
+                        </a>
+                        <a href="#habilities-container">
+                            <li>Principais Habilidades</li>
+                        </a>
+                        <a href="">
+                            <li>Projetos</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="home-container" class="home-container">
+            <div class="home-container1">
+                <h1 class="title">Seja bem-vindo ao <b>Meu Portfólio</b>! &#128640
+                </h1>
+            </div>
+            <div>
+                <img class="down-arrow" src="images/seta-baixo.gif" alt="seta-baixo">
+            </div>
+        </section>
+        
+        <section id="about-container" class="about-container">
+            <div class="about">
+              <img src="images/eu.jpeg" alt="Minha foto">
+              <div class="about-text">
+                <h2>Gabriel Bernardo</h2>
+                <p><b>Olá, Mundo!</b> Me chamo Gabriel, tenho 20 anos.
+                  Nasci em <b>São Paulo</b>, mas atualmente moro em uma cidade no interior de <b>Pernambuco</b>.
+                  Sou estudante de <b>Desenvolvimento Web </b> pela <b><a href="https://www.betrybe.com/" target="__blank" style="text-decoration:none; color: #036b52;">Trybe</a></b></p>
+              </div>
+            </div>
+        </section>
 
-    <div class="habilities-box">
-        <div class="left-habs">
-            <h3 id="phab" class="habilidades">Principais Habilidades</h3> 
-            <ul class="listas">
-                <li>Facil aprendizado</li>
-                <li>Bom humor</li>
-                <li>Empatia</li>
-                <li>Comprometimento</li>
-            </ul>
-        </div>
-        <div class="right-habs">
-            <h3 id="ohab" class="habilidades">Outras Habilidades</h3>
-            <ul class="listas">
-                <li>Git e GitHub</li>
-                <li>HTML</li>
-                <li>JavaScript</li>
-                <li>CSS</li>
-            </ul>
-        </div>
-    </div>
+        <section id="habilities-container" class="habilities-container">
+          <h2 style="color: white">Principais Habilidades</h2>
+          <div class="habilities">
+            <div>
+              <h4>HTML</h4>
+              <img class="gallery-img" src="./images/html-logo.png" alt="HTML logo" />
+            </div>
+            <div>
+              <h4>CSS</h4>
+              <img class="gallery-img" src="./images/css-logo.png" alt="CSS logo" />
+            </div>
+            <div>
+              <h4>JAVASCRIPT</h4>
+              <img class="gallery-img" src="./images/javaScript-logo.png" alt="JavaScript logo" />
+            </div>
+            <div>
+              <h4>GITHUB</h4>
+              <img class="gallery-img" src="./images/github-white.png" alt="GitHub logo" />
+            </div>
+            <div>
+              <h4>LINUX</h4>
+              <img class="gallery-img" src="./images/linux.png" alt="Linux logo" />
+            </div>
+            <div>
+              <h4>GIT</h4>
+              <img class="gallery-img" src="./images/git.png" alt="Git logo" />
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
