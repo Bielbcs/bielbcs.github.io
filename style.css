@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -71,7 +75,7 @@ li, nav{
 }
 
 .about-container {
-  height: 70vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   background-color: #e4e3e3;
@@ -93,6 +97,10 @@ li, nav{
   border-radius: 50%;
 }
 
+.about-text {
+  padding: 20px;
+}
+
 .habilities {
   border-radius: 8px;
   width: 50%;
@@ -106,7 +114,7 @@ li, nav{
 }
 
 .habilities-container {
-  height: 100vh;
+  height: 100vh !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,4 +132,66 @@ li, nav{
 
 .habilities div {
   color: white;
+}
+
+@media (max-width: 1250px) {
+  .nav-container ul a {
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 40pt;
+    padding-top: 100px;
+  }
+
+  .home-container1 {
+    font-size: 30pt;
+  }
+
+  .home-container1 .rocket {
+    font-size: 3rem;
+  }
+
+  .habilities {
+    width: 40%;
+    height: auto;
+    font-size: 7px;
+  }
+
+  .habilities-container h2 {
+    font-size: 15px;
+  }
+
+  .habilities img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 550px) {
+  .habilities img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .habilities {
+    width: 70%;
+  }
+
+  .title {
+    font-size: 30pt;
+    padding-top: 150px;
+  }
+
+  .about img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 320px) {
+  .habilities img {
+    width: 70px;
+    height: 70px;
+  }
 }
